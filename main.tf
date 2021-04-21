@@ -1,8 +1,8 @@
 provider "azurerm" {
   features {}
 }
-resource "azurerm_resource_group" "example" {
-  name     = "example"
+
+resource "azurerm_resource_group" "myRG" {
+  name     = "myRG-resources"
   location = "West Europe"
-  Tag = "DevOps"
 }
